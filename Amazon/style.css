@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.amazon {
+  display: flex;
+}
+
+.left {
+  display: flex;
+}
+
+.search {
+  display: flex;
+}
+
+.location {
+  width: 
+}
+
+.right {
+  display: flex;
+}
+.amazon-icon {
+  width: 100px;
+  height: 40px
+}
+
+.location-icon {
+  width: 40px
+}
+
+.category {
+  display: flex;
+  color: gray;
+}
+
+.search-bar {
+  width: 400px
+}
+
+.search-icon {
+  width: 40px
+}
+
+.canada {
+  width: 30px
+}
+
+.shopping-cart {
+  width: 50px
+}
+

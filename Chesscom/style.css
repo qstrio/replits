@@ -1,0 +1,193 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+main {
+  display: flex;
+  width: 100%;
+}
+
+nav {
+  background-color: #262522;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%
+}
+
+.nav-top, .nav-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-button {
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.nav-button:hover {
+  background-color: #0d0d0c;
+}
+
+.chess-logo {
+  width: 100px;
+}
+
+.search {
+  background-color: #3c3b39;
+  outline: none;
+  border-radius: 4px;
+  border: 0.5px solid #a09c9c;
+  padding: 6px;
+  width: 100px;
+  color: white;
+  margin: 20px 6px;
+}
+
+.login, .signup {
+  padding: 6px;
+  color: white;
+  margin: 4px 6px;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+}
+
+.signup {
+  background-color: #494846;
+}
+
+.login {
+  background-color: #99c75c;
+}
+
+.signup:hover {
+  background-color: #71716f;
+}
+
+.login:hover {
+  background-color: #baec79
+}
+
+.nav-button2 {
+  color: #b5b5b5;
+  font-size: 10px;
+  padding: 6px;
+}
+
+.content {
+  background-color: #302e2b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.play {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%
+}
+
+.play-image {
+  width: 400px;
+  border-radius: 4px;
+}
+
+.play-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.play container h1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.players {
+  display: flex;
+  justify-content: space-between;
+}
+
+.players p span {
+  color: white;
+}
+
+.players p {
+  color: #8b8989;
+}
+
+.play-button {
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  width: 300px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.play-button p {
+  font-size: 12px;
+}
+
+.play-online {
+  background-color: #98c757;
+  color: white;
+}
+
+.play-online:hover{
+  background-color: #b5e571;
+}
+
+.play-computer {
+  background-color: #444341;
+  color: #e6e6e6;
+}
+
+.play-computer:hover {
+  background-color: #676665;
+}
+
+.puzzle-image {
+  width: 300px;
+}
+
+.solve-puzzles {
+  background-color: #080807;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.puzzles-button {
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  width: 200px;
+  margin: 20px 0;
+  cursor: pointer;
+  background-color: #b5e571;
+  color: #fff;
+}
+
+.gm-image {
+  width: 150px;
+}
+
+.quote h5 {
+  background-color: #801d16;
+  color: #fff;
+}

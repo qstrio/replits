@@ -1,0 +1,93 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+main, footer {
+  padding: 20px;
+}
+
+.twitter {
+  display: flex;
+  flex-direction: column;
+}
+
+.twitter-logo {
+  width:100px;
+}
+
+.google-logo {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.apple-logo {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.button-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.or {
+  display: flex;
+  width: 85%;
+  align-items: center;
+  font-size: 20px;
+  color: #d7dede
+}
+
+.or p {
+  color: black;
+}
+
+hr {
+  flex: 1;
+  margin: 0 10px;
+}
+
+span {
+  color: #3c97dd
+}
+
+button {
+  width: 400px;
+  padding: 6px 0;
+  font-size: 15px;
+  border-radius: 15px;
+  margin: 10px 0;
+  border: 1px solid #d9d5d4;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.account {
+  background-color: #3c97dd;
+  color: white;
+}
+
+.signin {
+  color: #3c97dd
+}
+
+nav {
+  display: flex;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 10px;
+  color: #707070;
+  margin-top: 50px;
+}
+
+nav p {
+  margin: 10px;
+}

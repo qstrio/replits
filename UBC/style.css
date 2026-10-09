@@ -1,0 +1,320 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  background-color: #031d3f;
+  width: 100%;
+}
+
+.nav-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.nav-ubc {
+  display: flex;
+}
+
+.nav-ubc-logo {
+  border-color: #cfcece;
+  border-style: solid;
+  border-width: 0 1px 0 1px;
+  padding: 20px;
+}
+
+.nav-ubc img {
+  width: 40px;
+  object-fit: contain;
+}
+
+.nav-ubc-name {
+  border-color: #cfcece;
+  border-style: solid;
+  border-width: 0 1px 0 0;
+  padding: 20px;
+  padding-right: 200px;
+}
+
+.nav-ubc-name h1 {
+  font-size: 16px;
+  color: #002859;
+  letter-spacing: 4px;
+}
+
+.nav-first {
+  display: flex;
+  background-color: #031d3f;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  font-size: 10px;
+  justify-content: center;
+}
+
+.nav-first a {
+  margin: 0 10px;
+}
+
+.nav-students {
+  display: flex;
+  background-color: #f5f5f5;
+  width: 100%;
+  padding: 10px;
+  color: #3c3939;
+  font-size: 10px;
+  justify-content: center;
+}
+
+.nav-students a {
+  margin: 0 10px;
+}
+
+.news {
+  background-image: url('https://ubctoday.ubc.ca/sites/default/files/styles/opening_image_crop/public/2023-08/1010x721_robertgodin6.jpg?h=45a688fb&itok=4N1Xo-Bt');
+  background-position: 70% 18%;
+  background-size: 150%;
+  height: 40vh;
+  display: flex;
+  align-items: flex-end;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+}
+
+.news-info {
+  padding-left: 10%;
+  padding-bottom: 5%;
+  background-color: rgba(4, 64, 133, 0.4);
+  width: 100%;
+}
+
+.news-info h1 {
+  font-size: 18px;
+}
+
+.news-info p {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.news-info a {
+  font-size: 12px;
+}
+
+.spotlight {
+  padding: 10%;
+  width: 80%;
+}
+
+.spotlight-word {
+  font-size: 18px;
+  font-weight: normal;
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+
+.spotlight-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.spotlight-item {
+  margin: 0 10px;
+  width: 200px;
+}
+
+.spotlight-item h1 {
+  width: 80%;
+  font-size: 16px;
+  color: #6ab2f6;
+}
+
+.spotlight p {
+  font-size: 12px;
+}
+
+.spotlight-image {
+  width: 200px;
+}
+
+.connect {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.connect hr {
+  width: 80%;
+  border: 0.5px #6ab2f6 solid;
+}
+
+.connect-ubc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.connect-ubc h1 {
+  font-size: 16px;
+  color: #6ab2f6;
+  font-weight: normal;
+}
+
+.connect-icons img {
+  width: 18px;
+  margin: 0 2px;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #031d3f;
+}
+
+.vancouver {
+  width: 60%
+}
+
+.okanagan {
+  width: 50%
+}
+
+.location h1 {
+  font-size: 14px;
+}
+
+.location p {
+  font-size: 10px;
+  margin: 3px;
+}
+
+.bottom-icon img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.bottom-logo {
+  width: 20px
+}
+
+footer .about {
+  display: flex;
+  flex-direction: row;
+  /* align-items: top; */
+  justify-content: space-between;
+  color: #fff;
+  background-color: #031d3f;
+  /* width: 100%; */
+  padding: 40px;
+}
+
+.about p {
+  margin: 4px;
+}
+
+.about-ubc {
+  font-size: 10px;
+  margin: 0 40px;
+}
+
+.ubc-campuses {
+  font-size: 10px;
+}
+
+
+.bottom-icon {
+  display: flex;
+  margin-top: 20px;
+}
+
+.bottom-icon h1 {
+  font-size: 10px;
+}
+
+
+
+footer .footer-text {
+  display: flex;
+  padding: 40px;
+  /* width: 100%; */
+  background-color: #031d3f;
+  color: #fff;
+  font-size: 10px;
+}
+
+.footer-text p {
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.explore {
+  width: 80%;
+}
+
+.explore-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.explore-card {
+  width: 200px;
+  border: 1px solid #ededed;
+  background-color: #f5f5f5;
+  margin: 20px 0;
+}
+
+.explore-card p {
+  font-size: 10px;
+  font-style: italic;
+  cursor: pointer;
+  color: #6ab2f6;
+  margin: 4px 8px;
+}
+
+.explore-card h1 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 8px 8px;
+}
+
+.explore-card h6 {
+  font-size: 12px;
+  font-weight: normal;
+  color: #525151;
+  margin: 8px 8px 20px 8px;
+}
+
+.explore-card img {
+  width: 200px;
+  object-fit: contain;
+}
